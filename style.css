@@ -404,6 +404,38 @@ ul { list-style: none; }
     line-height: 1.8;
 }
 
+/* --- NAVBAR LOGO UPDATE --- */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjusts height to fit the navbar */
+    width: auto;  /* Keeps the logo ratio correct */
+    display: block;
+}
+
+
+/* --- FOUNDER SOCIAL LINKS --- */
+.founder-socials {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.founder-socials a {
+    color: #888; /* Grey by default */
+    font-size: 1.3rem;
+    transition: var(--transition);
+}
+
+.founder-socials a:hover {
+    color: var(--accent-color); /* Blue on hover */
+    transform: translateY(-2px);
+}
+
 /* --- MOBILE RESPONSIVE --- */
 @media (max-width: 768px) {
     .nav-links {
