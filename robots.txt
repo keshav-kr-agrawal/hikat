@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hikat.xyz/sitemap.xml
