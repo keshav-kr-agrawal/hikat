@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /about.html
 Allow: /
 
 Sitemap: https://hikat.xyz/sitemap.xml
