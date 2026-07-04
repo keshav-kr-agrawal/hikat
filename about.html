@@ -1,215 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hikat | About Us</title>
-    <meta name="description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity, united by code to build the digital future.">
-    <meta name="keywords" content="Hikat founders, K K Agrawal, Vignesh B S, Ishaan Gupta, Srujan N Hiremath, software engineers, tech ecosystem, Hikity, development team">
+    <title>Hikat | About the Founders & Ecosystem</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity and united by code to build innovative digital systems.">
+    <meta name="keywords" content="Hikat founders, K K Agrawal, Vignesh B S, Ishaan Gupta, Srujan N Hiremath, software engineers, digital ecosystem, development team">
     <meta name="robots" content="index, follow">
-    
+    <link rel="canonical" href="https://hikat.xyz/about.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://hikat.xyz/about.html">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hikat.xyz/about.html">
-    <meta property="og:title" content="Hikat | About Us">
-    <meta property="og:description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity, united by code to build the digital future.">
+    <meta property="og:title" content="Hikat | About the Founders & Ecosystem">
+    <meta property="og:description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity and united by code.">
     <meta property="og:image" content="https://hikat.xyz/logo.png">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://hikat.xyz/about.html">
-    <meta name="twitter:title" content="Hikat | About Us">
-    <meta name="twitter:description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity, united by code to build the digital future.">
+    <meta name="twitter:title" content="Hikat | About the Founders & Ecosystem">
+    <meta name="twitter:description" content="Meet the founders of Hikat: K K Agrawal, Vignesh B S, Ishaan Gupta, and Srujan N Hiremath. Driven by curiosity and united by code.">
     <meta name="twitter:image" content="https://hikat.xyz/logo.png">
 
+    <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data Schema for about page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Hikat",
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "K K Agrawal",
+            "jobTitle": "Founder & CEO",
+            "sameAs": [
+              "https://www.linkedin.com/in/keshav-agrawal-39a39431a/",
+              "https://keshav-portfolio-vert.vercel.app/"
+            ]
+          },
+          {
+            "@type": "Person",
+            "name": "Vignesh B S",
+            "jobTitle": "Founder & CTO",
+            "sameAs": [
+              "https://www.linkedin.com/in/vigneshbs-dev/",
+              "http://vigneshbs.xyz/"
+            ]
+          },
+          {
+            "@type": "Person",
+            "name": "Ishaan Gupta",
+            "jobTitle": "Founder & Chief Innovation Officer",
+            "sameAs": [
+              "https://www.linkedin.com/in/ishaan-gpt/"
+            ]
+          },
+          {
+            "@type": "Person",
+            "name": "Srujan N Hiremath",
+            "jobTitle": "Founder & Chief Operating Officer",
+            "sameAs": [
+              "https://www.linkedin.com/in/srujan-n-hiremath/"
+            ]
+          }
+        ]
+      }
+    }
+    </script>
 </head>
+
 <body>
 
-    <!-- <nav class="navbar">
+    <nav class="navbar" id="main-nav">
         <div class="container nav-container">
-            <a href="index.html" class="logo">Hikat.</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="miniproducts.html">Mini Products</a></li>
-                <li><a href="about.html" class="active">About</a></li>
+            <a href="index.html" class="logo" id="nav-brand">
+                <img src="logo.png" alt="Hikat Logo" id="nav-logo">
+                <span>Hikat</span>
+            </a>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html" id="nav-link-home">Home</a></li>
+                <li><a href="miniproducts.html" id="nav-link-tools">Tools</a></li>
+                <li><a href="about.html" class="active" id="nav-link-about">About</a></li>
             </ul>
-            <div class="hamburger"><span></span><span></span><span></span></div>
+            <button class="hamburger" aria-label="Toggle navigation menu" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </nav> -->
+    </nav>
 
-    <nav class="navbar">
-    <div class="container nav-container">
-        <a href="index.html" class="logo">
-            <img src="logo.png" alt="Hikat Logo">Hikat
-        </a>
-        
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <!-- <li><a href="miniproducts.html">Projects</a></li> -->
-            <li><a href="about.html">About</a></li>
-        </ul>
-        <div class="hamburger"><span></span><span></span><span></span></div>
-    </div>
-</nav>
-
-    <section class="intro-section">
+    <header class="intro-section" id="about-hero">
         <div class="container">
-            <h1>Who We Are.</h1>
-            <p>Driven by curiosity, united by code.</p>
+            <span class="label-badge">Who We Are</span>
+            <h1>Driven by curiosity. United by code.</h1>
+            <p>We are engineers, developers, and thinkers working together to build premium digital ecosystems and software infrastructures.</p>
         </div>
-    </section>
+    </header>
 
-    <section class="team-section">
-    <div class="container">
-        <h2 class="section-title">The Founders</h2>
-        <div class="founders-grid">
-            
-            <div class="profile-card">
-                <img src="images/keshav1.jpg" alt="K K Agrawal" class="profile-img">
-                <h3>K K Agrawal</h3>
-                <p class="role">Founder & CEO</p>
-                <div class="founder-socials">
-                    <a href="https://keshav-portfolio-vert.vercel.app/" target="_blank" aria-label="Portfolio"><i class="fas fa-globe"></i></a>
-                    <a href="https://www.linkedin.com/in/keshav-agrawal-39a39431a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <img src="images/vignesh1.jpg" alt="Vignesh B S" class="profile-img">
-                <h3>Vignesh B S</h3>
-                <p class="role">Founder & CTO</p>
-                <div class="founder-socials">
-                    <a href="http://vigneshbs.xyz/" target="_blank" aria-label="Portfolio"><i class="fas fa-globe"></i></a>
-                    <a href="https://www.linkedin.com/in/vigneshbs-dev/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <img src="images/ishaan.jpg" alt="Ishaan Gupta" class="profile-img">
-                <h3>Ishaan Gupta</h3>
-                <p class="role">Founder & Chief Innovation Officer</p>
-                <div class="founder-socials">
-                    <!-- <a href="#" target="_blank" aria-label="Portfolio"><i class="fas fa-globe"></i></a> -->
-                    <a href="https://www.linkedin.com/in/ishaan-gpt/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <img src="images/srujan1.jpg" alt="Srujan N Hiremath" class="profile-img">
-                <h3>Srujan N Hiremath</h3>
-                <p class="role">Founder & Chief Operating Officer</p>
-                <div class="founder-socials">
-                    <!-- <a href="#" target="_blank" aria-label="Portfolio"><i class="fas fa-globe"></i></a> -->
-                    <a href="https://www.linkedin.com/in/srujan-n-hiremath/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section class="hikity-section">
-        <div class="container hikity-container">
-            <div class="hikity-content">
-                <span class="badge">Ecosystem</span>
-                <h2>Hikity</h2>
-                <p>Empowering small businesses to scale their digital presence.</p>
-                <div class="hikity-stats">
-                    <strong>10+</strong> Dedicated Members
-                </div>
-            </div>
-            <div class="hikity-action">
-                <a href="https://hikity.xyz" class="btn-hikity">Explore Hikity &rarr;</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="team-section" style="background-color: #fff;">
-        <div class="container">
-            <h2 class="section-title">Sub-Teams</h2>
-            
-            <div class="sub-team-card">
-                <div class="team-info">
-                    <h3>Core Development Team</h3>
-                    <p>A dedicated group of 5 engineers building the backbone of Hikat technology.</p>
-                    <div style="margin-top: 1rem; color: #555; font-size: 0.9rem;">
-                        <strong>Members:</strong> Mohak Gupta, Anurag kumar, Anshul Kumar, Saket kumar, K K Agrawal
+    <main>
+        <section class="team-section" id="founders-list">
+            <div class="container">
+                <h2 class="section-title">The Founders</h2>
+                
+                <div class="founders-grid">
+                    
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="images/keshav1.jpg" alt="Portrait of K K Agrawal, Founder and CEO of Hikat" class="profile-img">
+                        </div>
+                        <h3>K K Agrawal</h3>
+                        <p class="role">Founder & CEO</p>
+                        <div class="founder-socials">
+                            <a href="https://keshav-portfolio-vert.vercel.app/" target="_blank" rel="noopener" aria-label="K K Agrawal Portfolio Website"><i class="fas fa-globe"></i></a>
+                            <a href="https://www.linkedin.com/in/keshav-agrawal-39a39431a/" target="_blank" rel="noopener" aria-label="K K Agrawal LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="team-action">
-                    <a href="https://teammaask.vercel.app" class="btn-outline">Visit Team Website</a>
+
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="images/vignesh1.jpg" alt="Portrait of Vignesh B S, Founder and CTO of Hikat" class="profile-img">
+                        </div>
+                        <h3>Vignesh B S</h3>
+                        <p class="role">Founder & CTO</p>
+                        <div class="founder-socials">
+                            <a href="http://vigneshbs.xyz/" target="_blank" rel="noopener" aria-label="Vignesh B S Portfolio Website"><i class="fas fa-globe"></i></a>
+                            <a href="https://www.linkedin.com/in/vigneshbs-dev/" target="_blank" rel="noopener" aria-label="Vignesh B S LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="images/ishaan.jpg" alt="Portrait of Ishaan Gupta, Founder and Chief Innovation Officer of Hikat" class="profile-img">
+                        </div>
+                        <h3>Ishaan Gupta</h3>
+                        <p class="role">Founder & Chief Innovation Officer</p>
+                        <div class="founder-socials">
+                            <a href="https://www.linkedin.com/in/ishaan-gpt/" target="_blank" rel="noopener" aria-label="Ishaan Gupta LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="images/srujan1.jpg" alt="Portrait of Srujan N Hiremath, Founder and Chief Operating Officer of Hikat" class="profile-img">
+                        </div>
+                        <h3>Srujan N Hiremath</h3>
+                        <p class="role">Founder & Chief Operating Officer</p>
+                        <div class="founder-socials">
+                            <a href="https://www.linkedin.com/in/srujan-n-hiremath/" target="_blank" rel="noopener" aria-label="Srujan N Hiremath LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        </section>
 
-            <div class="sub-team-card">
-                <div class="team-info">
-                    <h3>Creative Unit</h3>
-                    <p>2 specialists focused on visual identity and user experience.</p>
-                    <div style="margin-top: 1rem; color: #555; font-size: 0.9rem;">
-                        <strong>Members:</strong> K K Agrawal, Nitya Sri
+        <section class="hikity-section" id="hikity-ecosystem">
+            <div class="container">
+                <div class="hikity-container">
+                    <div class="hikity-content">
+                        <span class="badge">Ecosystem Project</span>
+                        <h2>Hikity Ecosystem</h2>
+                        <p>Empowering small and medium enterprises with automated scaling, tailored digital stores, and rapid customer acquisition pipelines.</p>
+                        <div class="hikity-stats">
+                            <span>Development: </span>
+                            <strong>10+</strong> Active Contributors
+                        </div>
+                    </div>
+                    <div class="hikity-action">
+                        <a href="https://hikity.xyz" class="btn-hikity" target="_blank" rel="noopener" aria-label="Explore the Hikity digital ecosystem and platforms">
+                            Explore Hikity &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!-- <section class="hikity-section">
-        <div class="container hikity-container">
-            <div class="hikity-content">
-                <span class="badge">Ecosystem</span>
-                <h2>Hikity</h2>
-                <p>Empowering small businesses to scale their digital presence.</p>
-                <div class="hikity-stats">
-                    <strong>10+</strong> Dedicated Members
+        <section class="team-section" id="sub-teams-list">
+            <div class="container">
+                <h2 class="section-title">Operational Teams</h2>
+                
+                <div class="sub-team-card">
+                    <div class="team-info">
+                        <h3>Core Development Team</h3>
+                        <p>Our infrastructure engineering force driving scalable APIs, cloud logistics, geospatial systems, and AI-enabled diagnostics.</p>
+                        <div class="team-members-list">
+                            <strong>Engineers:</strong> Mohak Gupta, Anurag Kumar, Anshul Kumar, Saket Kumar, K K Agrawal
+                        </div>
+                    </div>
+                    <div class="team-action">
+                        <a href="https://teammaask.vercel.app" class="btn-outline" target="_blank" rel="noopener" aria-label="Visit Core Development Team MAASK website">
+                            Visit Team Site
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="hikity-action">
-                <a href="https://hikity.xyz" class="btn-hikity">Explore Hikity &rarr;</a>
-            </div>
-        </div>
-    </section> -->
 
-    <footer class="footer">
+                <div class="sub-team-card">
+                    <div class="team-info">
+                        <h3>Creative & UI/UX Unit</h3>
+                        <p>Specialists defining brand interfaces, aesthetic components, responsive design guidelines, and seamless micro-interactions.</p>
+                        <div class="team-members-list">
+                            <strong>Designers:</strong> K K Agrawal, Nitya Sri
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer-section">
         <div class="container footer-grid">
             <div class="footer-col">
                 <h3 class="footer-logo">Hikat.</h3>
-                <p>Innovating for tomorrow.</p>
+                <p>Engineering digital solutions for complex physical problems.</p>
                 <div class="social-links">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="footer-contact" style="margin-top: 1.5rem;">
-                    <p style="font-size: 0.9rem; color: #999;">Contact us:</p>
-                    <a href="mailto:contact@hikat.xyz" style="color: #fff; font-weight: 500;">contact@hikat.xyz</a>
+                    <a href="https://www.linkedin.com/in/hikity/" target="_blank" rel="noopener" aria-label="Hikat LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hikityofficial/" target="_blank" rel="noopener" aria-label="Hikity Instagram Profile"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
+
             <div class="footer-col">
-                <h4>Explore</h4>
-                <ul><li><a href="index.html">Home</a></li><li><a href="miniproducts.html">Projects</a></li><li><a href="https://hikity.xyz">Hikity Ecosystem</a></li></ul>
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="index.html#products">Core Products</a></li>
+                    <li><a href="miniproducts.html">Labs & Tools</a></li>
+                    <li><a href="https://hikity.xyz" target="_blank" rel="noopener">Hikity Ecosystem</a></li>
+                </ul>
             </div>
+
             <div class="footer-col">
                 <h4>Company</h4>
-                <ul><li><a href="about.html">About Us</a></li></ul>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="mailto:contact@hikat.xyz" class="footer-contact-link">Contact Support</a></li>
+                </ul>
             </div>
+
             <div class="footer-col">
                 <h4>Legal</h4>
-                <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="cookies.html">Cookie Settings</a></li></ul>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cookies.html">Cookie Settings</a></li>
+                </ul>
             </div>
         </div>
-        <div class="footer-bottom"><p>&copy; 2026 Hikat. All Rights Reserved.</p></div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Hikat. All Rights Reserved.</p>
+            <div class="footer-contact">
+                <span>Inquiries: </span>
+                <a href="mailto:contact@hikat.xyz">contact@hikat.xyz</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>

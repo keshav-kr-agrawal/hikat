@@ -1,110 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hikat | Privacy Policy</title>
-    <meta name="description" content="Privacy Policy for Hikat. Read how we collect, use, and safeguard your personal information and maintain user data security.">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Privacy Policy for Hikat. Review our guidelines regarding data privacy, user consent, cookies, and protection protocols.">
     <meta name="robots" content="index, follow">
-    
+    <link rel="canonical" href="https://hikat.xyz/privacy.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://hikat.xyz/privacy.html">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hikat.xyz/privacy.html">
     <meta property="og:title" content="Hikat | Privacy Policy">
-    <meta property="og:description" content="Privacy Policy for Hikat. Read how we collect, use, and safeguard your personal information.">
+    <meta property="og:description" content="Privacy Policy for Hikat. Review our guidelines regarding data privacy, user consent, and security.">
     <meta property="og:image" content="https://hikat.xyz/logo.png">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://hikat.xyz/privacy.html">
     <meta name="twitter:title" content="Hikat | Privacy Policy">
-    <meta name="twitter:description" content="Privacy Policy for Hikat. Read how we collect, use, and safeguard your personal information.">
+    <meta name="twitter:description" content="Privacy Policy for Hikat. Review our guidelines regarding data privacy, user consent, and security.">
     <meta name="twitter:image" content="https://hikat.xyz/logo.png">
 
+    <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- <nav class="navbar">
+    <nav class="navbar" id="main-nav">
         <div class="container nav-container">
-            <a href="index.html" class="logo">Hikat.</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="miniproducts.html">Mini Products</a></li>
-                <li><a href="about.html">About</a></li>
+            <a href="index.html" class="logo" id="nav-brand">
+                <img src="logo.png" alt="Hikat Logo" id="nav-logo">
+                <span>Hikat</span>
+            </a>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html" id="nav-link-home">Home</a></li>
+                <li><a href="miniproducts.html" id="nav-link-tools">Tools</a></li>
+                <li><a href="about.html" id="nav-link-about">About</a></li>
             </ul>
-            <div class="hamburger"><span></span><span></span><span></span></div>
+            <button class="hamburger" aria-label="Toggle navigation menu" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </nav> -->
+    </nav>
 
-    <nav class="navbar">
-    <div class="container nav-container">
-        <a href="index.html" class="logo">
-            <img src="logo.png" alt="Hikat Logo">Hikat
-        </a>
-        
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <!-- <li><a href="miniproducts.html">Mini Products</a></li>
-            <li><a href="about.html">About</a></li> -->
-        </ul>
-        <div class="hamburger"><span></span><span></span><span></span></div>
-    </div>
-</nav>
-
-    <section class="legal-section">
+    <main class="legal-section" id="privacy-policy">
         <div class="container legal-container">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: January 2026</p>
+            <span class="last-updated">Last Updated: January 2026</span>
+            
             <div class="legal-block">
                 <h3>1. Introduction</h3>
-                <p>Welcome to Hikat. We respect your privacy and are committed to protecting your personal data.</p>
+                <p>At Hikat, we are committed to respecting your privacy and protecting the security of your personal data. This privacy document details how we handle information across our digital ecosystems, including websites, utility tools, and labs.</p>
             </div>
+            
             <div class="legal-block">
-                <h3>2. Data We Collect</h3>
-                <p>We may collect, use, store and transfer different kinds of personal data including Identity Data, Contact Data, and Technical Data.</p>
+                <h3>2. Information We Collect</h3>
+                <p>We only collect data that is strictly essential for delivering our services. This can include:
+                    <ul>
+                        <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-secondary);"><strong>Identity & Contact Details:</strong> Name and email addresses when voluntarily submitted via support queries.</li>
+                        <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-secondary);"><strong>Technical Data:</strong> Anonymized usage behavior, device metadata, and core application logs gathered for debugging and analytics.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="legal-block">
+                <h3>3. Security Measures</h3>
+                <p>Your security is paramount. Hikat implements modern technical and operational measures, including standard encryption protocols and secure hosting parameters, to protect all transaction traces and data endpoints from unauthorized intrusion.</p>
             </div>
         </div>
-    </section>
+    </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer-section">
         <div class="container footer-grid">
             <div class="footer-col">
                 <h3 class="footer-logo">Hikat.</h3>
-                <p>Innovating for tomorrow.</p>
+                <p>Engineering digital solutions for complex physical problems.</p>
                 <div class="social-links">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="footer-contact" style="margin-top: 1.5rem;">
-                    <p style="font-size: 0.9rem; color: #999;">Contact us:</p>
-                    <a href="mailto:contact@hikat.xyz" style="color: #fff; font-weight: 500;">contact@hikat.xyz</a>
+                    <a href="https://www.linkedin.com/in/hikity/" target="_blank" rel="noopener" aria-label="Hikat LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hikityofficial/" target="_blank" rel="noopener" aria-label="Hikity Instagram Profile"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
+
             <div class="footer-col">
-                <h4>Explore</h4>
-                <ul><li><a href="index.html">Home</a></li><li><a href="miniproducts.html">Mini Products</a></li><li><a href="https://hikity.xyz">Hikity Ecosystem</a></li></ul>
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="index.html#products">Core Products</a></li>
+                    <li><a href="miniproducts.html">Labs & Tools</a></li>
+                    <li><a href="https://hikity.xyz" target="_blank" rel="noopener">Hikity Ecosystem</a></li>
+                </ul>
             </div>
+
             <div class="footer-col">
                 <h4>Company</h4>
-                <!-- <ul><li><a href="about.html">About Us</a></li></ul> -->
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="mailto:contact@hikat.xyz" class="footer-contact-link">Contact Support</a></li>
+                </ul>
             </div>
+
             <div class="footer-col">
                 <h4>Legal</h4>
-                <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="cookies.html">Cookie Settings</a></li></ul>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cookies.html">Cookie Settings</a></li>
+                </ul>
             </div>
         </div>
-        <div class="footer-bottom"><p>&copy; 2026 Hikat. All Rights Reserved.</p></div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Hikat. All Rights Reserved.</p>
+            <div class="footer-contact">
+                <span>Inquiries: </span>
+                <a href="mailto:contact@hikat.xyz">contact@hikat.xyz</a>
+            </div>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
